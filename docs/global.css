@@ -11,18 +11,8 @@ body {
 	background-color: rgb(231, 221, 221);
 }
 
-a {
-	color: rgb(0,100,200);
-	text-decoration: none;
-}
 
-a:hover {
-	text-decoration: underline;
-}
 
-a:visited {
-	color: rgb(0,80,160);
-}
 
 label {
 	display: block;
@@ -46,16 +36,4 @@ input[type="range"] {
 	height: 0;
 }
 
-button {
-	color: #333;
-	background-color: #f4f4f4;
-	outline: none;
-}
 
-button:active {
-	background-color: #ddd;
-}
-
-button:focus {
-	border-color: #666;
-}

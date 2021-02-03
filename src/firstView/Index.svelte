@@ -51,7 +51,7 @@
   }
 
 .usper {
-	background-color: red;
+	background-color: #ffadbc;
 	margin: 0px 5px 0px 5px;
 	padding: 5px 15px 5px 15px;
 	border-radius: 50px;
@@ -65,6 +65,16 @@
 
 .col-md-12 {
 	padding-left:10px;
+}
+
+@media only screen and (max-width: 600px) {
+ 	img {
+    width: 100%;
+	height: auto;
+	max-height: 200px;
+    margin-bottom: 10px;
+  }
+
 }
 
 </style>
