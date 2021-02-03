@@ -2,6 +2,9 @@
 	export let name = undefined;
 	export let link = undefined;
 	export let image = undefined;
+
+
+	
 </script>
 
 
@@ -10,7 +13,7 @@
 </div>
 <h1 >Det er en Match! </h1>
 <p>Du og {name} liker hverandre!</p>
-<a href={link} target="_blank">Besøk meg her ;) </a>
+<a href={link} target="_blank" >Besøk meg her ;) </a>
 
 
 

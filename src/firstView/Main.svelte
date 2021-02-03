@@ -23,8 +23,8 @@
             "usp": [
                 "Grønn", "Snill"
             ],
-            "img": "./images/fornybar-energi.jpg",
-            "link": "www.vg.no"
+            "img": "./images/fornybar-energi-use.jpg",
+            "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010883465&buy"
         }, {
             "name": "Storebrand Fremtid 10",
             "description": "Hei! Så hyggelig at du vil bli bedre kjent med meg!Jeg er en rolig person som ny" +
@@ -38,8 +38,8 @@
             "usp": [
                 "Livsnyter", "Varsom"
             ],
-            "img": "./images/fremtid-10.jpg",
-            "link": "www.vg.no"
+            "img": "./images/fremtid-10-use.jpg",
+            "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894694&buy"
 
         }, {
             "name": "Storebrand Fremtid 50",
@@ -53,8 +53,8 @@
             "usp": [
                 "Naturbarn", "Nøisom"
             ],
-            "img": "./images/fremtid-50.jpg",
-            "link": "www.vg.no"
+            "img": "./images/fremtid-50-use.jpg",
+            "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894801&buy"
 
         }, {
             "name": "Storebrand Fremtid 100",
@@ -68,8 +68,8 @@
             "usp": [
                 "Tøff", "Fremtidsrettet"
             ],
-            "img": "./images/ofensivtoffing.jpg",
-            "link": "www.vg.no"
+            "img": "./images/ofensivtoffing-use.jpg",
+            "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894819&buy"
 
         }, {
             "name": "Storebrand Norge Fossilfritt",
@@ -84,8 +84,8 @@
             "usp": [
                 "Hjemmekjær", "Naturglad"
             ],
-            "img": "./images/fosilfri.jpg",
-            "link": "www.vg.no"
+            "img": "./images/fosilfri-use.jpg",
+            "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010788284&buy&name=Storebrand%20Norge%20Fossilfri%20A"
 
 		},
 		{
@@ -94,10 +94,10 @@
                     
                 
             "usp": [
-                "Storebrand", "valentinsdagen"
+                "Storebrand", "Valentinsdagen"
             ],
-            "img": "./images/no-more.jpg",
-            "link": "www.vg.no"
+            "img": "./images/no-more-use.jpg",
+            "link": "https://www.storebrand.no/privat/sparing/fondssparing"
 
         }
     ];
@@ -150,7 +150,7 @@
                 </button>
             </div>
             <div class="yes-block">
-                <button on:click={likeFond} onclick="this.blur();" class="but" id="yes">
+                <button on:click={likeFond} onclick="this.blur();" on:click={renderNextFond} class="but" id="yes">
                     <img src="images/Heart-green-01.svg" alt="heart">
                 </button>
             </div>
@@ -209,13 +209,16 @@
     .reset-but {
 		width: 100%;
         text-align: center;
+
     }
     .reset {
-		padding: 10px 20px 10px 20px;
-		margin-top: 20px;
+		padding: 5px 20px 5px 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
 		border-radius: 30px;
 		box-shadow: 0px 0px 4px #da291c;
-		min-width: 300px;
+        min-width: 300px;
+        font-size: 10pt;
 
 	}
 

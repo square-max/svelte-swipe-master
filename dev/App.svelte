@@ -6,7 +6,7 @@ import Modal from "../src/firstView/Modal.svelte";
 <div class="container">
   <div class="row">
     <div class="col">
-    <img class="heart-1" src="images/Heart-pink-05.svg" alt="heart">
+    <img class="heart-1" src="images/Heart-pink-07.svg" alt="heart">
 
       <h1 class="tittel">FOND OF YOU</h1>
       <p class="top-description">Finn fondet for deg</p>
@@ -37,6 +37,7 @@ import Modal from "../src/firstView/Modal.svelte";
   margin-top: 10px;
     color: #ffffff;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
 }
 
 .heart-1 {

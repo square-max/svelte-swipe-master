@@ -1220,17 +1220,17 @@ var app = (function () {
     			attr_dev(img, "alt", "bilde");
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "class", "svelte-1be33ax");
-    			add_location(img, file$2, 8, 0, 134);
+    			add_location(img, file$2, 11, 0, 138);
     			attr_dev(div, "class", "pop-img");
-    			add_location(div, file$2, 7, 0, 112);
+    			add_location(div, file$2, 10, 0, 116);
     			attr_dev(h1, "class", "svelte-1be33ax");
-    			add_location(h1, file$2, 10, 0, 172);
+    			add_location(h1, file$2, 13, 0, 176);
     			attr_dev(p, "class", "svelte-1be33ax");
-    			add_location(p, file$2, 11, 0, 200);
+    			add_location(p, file$2, 14, 0, 204);
     			attr_dev(a, "href", /*link*/ ctx[1]);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-1be33ax");
-    			add_location(a, file$2, 12, 0, 237);
+    			add_location(a, file$2, 15, 0, 241);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1412,40 +1412,40 @@ var app = (function () {
     			button2 = element("button");
     			strong = element("strong");
     			strong.textContent = "Start på nytt";
-    			attr_dev(div0, "class", "white-card svelte-1r1mbm4");
-    			add_location(div0, file$3, 136, 0, 6403);
+    			attr_dev(div0, "class", "white-card svelte-1s7l2pe");
+    			add_location(div0, file$3, 136, 0, 6836);
     			if (img0.src !== (img0_src_value = "images/X-04.svg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "X");
-    			attr_dev(img0, "class", "svelte-1r1mbm4");
-    			add_location(img0, file$3, 148, 20, 6864);
+    			attr_dev(img0, "class", "svelte-1s7l2pe");
+    			add_location(img0, file$3, 148, 20, 7297);
     			attr_dev(button0, "onclick", "this.blur();");
-    			attr_dev(button0, "class", "but svelte-1r1mbm4");
+    			attr_dev(button0, "class", "but svelte-1s7l2pe");
     			attr_dev(button0, "id", "nope");
-    			add_location(button0, file$3, 147, 16, 6764);
-    			attr_dev(div1, "class", "no-block svelte-1r1mbm4");
-    			add_location(div1, file$3, 146, 12, 6725);
+    			add_location(button0, file$3, 147, 16, 7197);
+    			attr_dev(div1, "class", "no-block svelte-1s7l2pe");
+    			add_location(div1, file$3, 146, 12, 7158);
     			if (img1.src !== (img1_src_value = "images/Heart-green-01.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "heart");
-    			attr_dev(img1, "class", "svelte-1r1mbm4");
-    			add_location(img1, file$3, 153, 20, 7090);
+    			attr_dev(img1, "class", "svelte-1s7l2pe");
+    			add_location(img1, file$3, 153, 20, 7549);
     			attr_dev(button1, "onclick", "this.blur();");
-    			attr_dev(button1, "class", "but svelte-1r1mbm4");
+    			attr_dev(button1, "class", "but svelte-1s7l2pe");
     			attr_dev(button1, "id", "yes");
-    			add_location(button1, file$3, 152, 16, 6997);
-    			attr_dev(div2, "class", "yes-block svelte-1r1mbm4");
-    			add_location(div2, file$3, 151, 12, 6957);
-    			attr_dev(div3, "class", "yes-no-buttons svelte-1r1mbm4");
-    			add_location(div3, file$3, 145, 8, 6684);
-    			add_location(strong, file$3, 159, 16, 7325);
+    			add_location(button1, file$3, 152, 16, 7430);
+    			attr_dev(div2, "class", "yes-block svelte-1s7l2pe");
+    			add_location(div2, file$3, 151, 12, 7390);
+    			attr_dev(div3, "class", "yes-no-buttons svelte-1s7l2pe");
+    			add_location(div3, file$3, 145, 8, 7117);
+    			add_location(strong, file$3, 159, 16, 7784);
     			attr_dev(button2, "onclick", "this.blur();");
-    			attr_dev(button2, "class", "reset svelte-1r1mbm4");
-    			add_location(button2, file$3, 158, 12, 7244);
-    			attr_dev(div4, "class", "reset-but svelte-1r1mbm4");
-    			add_location(div4, file$3, 157, 8, 7208);
+    			attr_dev(button2, "class", "reset svelte-1s7l2pe");
+    			add_location(button2, file$3, 158, 12, 7703);
+    			attr_dev(div4, "class", "reset-but svelte-1s7l2pe");
+    			add_location(div4, file$3, 157, 8, 7667);
     			attr_dev(div5, "class", "row");
-    			add_location(div5, file$3, 144, 4, 6658);
+    			add_location(div5, file$3, 144, 4, 7091);
     			attr_dev(div6, "class", "flex-container container");
-    			add_location(div6, file$3, 134, 0, 6363);
+    			add_location(div6, file$3, 134, 0, 6796);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1474,6 +1474,7 @@ var app = (function () {
     			dispose = [
     				listen_dev(button0, "click", /*renderNextFond*/ ctx[2], false, false, false),
     				listen_dev(button1, "click", /*likeFond*/ ctx[3], false, false, false),
+    				listen_dev(button1, "click", /*renderNextFond*/ ctx[2], false, false, false),
     				listen_dev(button2, "click", refresh, false, false, false)
     			];
     		},
@@ -1530,43 +1531,43 @@ var app = (function () {
     			"name": "Storebrand Fornybar Energi",
     			"description": "Hei, takk for at du titter innom profilen min. Jeg er reiseglad, og foretrekker " + "å oppleve verden fra sykkelsetet. Jeg liker å tenke nytt, og jeg elsker å diskut" + "ere de store spørsmål over et godt glass brus. Ja, jeg drikker altså ikke alkoho" + "l. Og du? Jeg ser heller ikke på porno. Vennene mine ser nok på meg som en event" + "yrer med høy moral, en som ikke er redd for å ta sjanser, og som sier ifra hvis " + "noe ikke er helt riktig. Hoppe fra en fjellskrent med paraglider? Ja, gjerne det" + "! Delta i Skolestreik for klimaet? Absolutt!Er du som meg; liker å se verden med" + " nye øyne, sykle gjennom vidstrakt natur og kanskje delta i en demonstrasjon mot" + " krig? Ja, da synes jeg at du skal gi meg et hjerte!",
     			"usp": ["Grønn", "Snill"],
-    			"img": "./images/fornybar-energi.jpg",
-    			"link": "www.vg.no"
+    			"img": "./images/fornybar-energi-use.jpg",
+    			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010883465&buy"
     		},
     		{
     			"name": "Storebrand Fremtid 10",
     			"description": "Hei! Så hyggelig at du vil bli bedre kjent med meg!Jeg er en rolig person som ny" + "ter livet best foran TV-en. Jeg er ganske glad i teknologi, og skaffer meg ofte " + "det nyeste av det nye! Jeg klatrer ikke høyest og jeg løper ikke raskest, men sa" + "tser i stedet på å nå målene mine over tid. Vennene mine vil beskrive meg som st" + "ødig og litt nerdete. Ligner kanskje litt på Ludvig fra Flåklypa? Med sekken ful" + "l av tekniske duppedingser. Ellers er jeg opptatt av å ta vare på naturen, at vi" + " oppfører oss bra mot hverandre, og at vi tør å stå opp mot urettferdighet.Hvis " + "du vil bli bedre kjent med meg, Lik da vel!",
     			"usp": ["Livsnyter", "Varsom"],
-    			"img": "./images/fremtid-10.jpg",
-    			"link": "www.vg.no"
+    			"img": "./images/fremtid-10-use.jpg",
+    			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894694&buy"
     		},
     		{
     			"name": "Storebrand Fremtid 50",
     			"description": "Halloisen! Jeg er en morsom skapning som liker ananas på pizza, ekstra sterk cur" + "ry, og iskald brus i glasset. Jeg elsker å utforske naturen, enten til fots, ski" + " eller sykkel. Besseggen har jeg ennå ikke gått, men kanskje klarer vi det samme" + "n, hånd i hånd?Jeg ser på meg selv som en person med høy moralsk standard, og je" + "g har innsett at skjønnhet er det første som falmer. For meg er det viktig at du" + " tør å ta en sjanse, uten å bli dumdristig. Vil du gå ved min side og bli litt b" + "edre kjent? You know what to do!  ",
     			"usp": ["Naturbarn", "Nøisom"],
-    			"img": "./images/fremtid-50.jpg",
-    			"link": "www.vg.no"
+    			"img": "./images/fremtid-50-use.jpg",
+    			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894801&buy"
     		},
     		{
     			"name": "Storebrand Fremtid 100",
     			"description": "Tjenare, nu kör vi! Jeg er en våghals med glimt i øyet, og jeg ser etter en som " + "tør satse på meg. Du må være villig til å ta sjanser, og sammen skal vi finne ut" + " at ofte nok er det verdt risikoen. Jeg elsker sterk mat, høylytte diskusjoner, " + "fart, spenning, og alt som er gøy. Kroppen er mitt tempel, så den tar jeg godt v" + "are på.Når folk først møter meg kan jeg virke spontan og vill, men egentlig er j" + "eg veldig nøyaktig. Ja, jeg tar sjanser. Ja, jeg satser. Ja, jeg tør mer enn and" + "re. Jeg er ikke farlig, det du ser er det du får!Er du med? Like da vel  ",
     			"usp": ["Tøff", "Fremtidsrettet"],
-    			"img": "./images/ofensivtoffing.jpg",
-    			"link": "www.vg.no"
+    			"img": "./images/ofensivtoffing-use.jpg",
+    			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894819&buy"
     		},
     		{
     			"name": "Storebrand Norge Fossilfritt",
     			"description": "Mitt livsmotto er Borte bra, men hjemme best. Jeg elsker norsk natur, så jeg tri" + "ves best på ferie i eget land. Vi må ta vare på den vakre naturen vår. Jeg bor i" + " Oslo, men er hverken hipster eller trendy. Kanskje litt mer sånn avslappet når " + "det kommer til stil? Du må gjerne være moteriktig, men det er ikke det som betyr" + " mest for meg.Vennene mine kaller meg rolig og nøktern. Jeg roper ikke høyest på" + " fest, jeg drikker ikke alkohol, og jeg tar sterk avstand til gambling og porno." + " Kanskje ikke noe man vanligvis skryter av allerede før første date, men det er " + "viktig for meg at du vet det!Hvis du vil bli bedre kjent, Trykk hjerte!",
     			"usp": ["Hjemmekjær", "Naturglad"],
-    			"img": "./images/fosilfri.jpg",
-    			"link": "www.vg.no"
+    			"img": "./images/fosilfri-use.jpg",
+    			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010788284&buy&name=Storebrand%20Norge%20Fossilfri%20A"
     		},
     		{
     			"name": "Ingen flere fond i nærheten :(",
     			"description": "Start på nytt eller sjekk ut Storebrand.no for flere fond!",
-    			"usp": ["Storebrand", "valentinsdagen"],
-    			"img": "./images/no-more.jpg",
-    			"link": "www.vg.no"
+    			"usp": ["Storebrand", "Valentinsdagen"],
+    			"img": "./images/no-more-use.jpg",
+    			"link": "https://www.storebrand.no/privat/sparing/fondssparing"
     		}
     	];
 
@@ -2711,19 +2712,19 @@ var app = (function () {
     			p.textContent = "Finn fondet for deg";
     			t4 = space();
     			create_component(modal.$$.fragment);
-    			attr_dev(img, "class", "heart-1 svelte-ntfewj");
-    			if (img.src !== (img_src_value = "images/Heart-pink-05.svg")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "class", "heart-1 svelte-12lzvui");
+    			if (img.src !== (img_src_value = "images/Heart-pink-07.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "heart");
     			add_location(img, file$5, 8, 4, 179);
-    			attr_dev(h1, "class", "tittel svelte-ntfewj");
+    			attr_dev(h1, "class", "tittel svelte-12lzvui");
     			add_location(h1, file$5, 10, 6, 251);
-    			attr_dev(p, "class", "top-description svelte-ntfewj");
+    			attr_dev(p, "class", "top-description svelte-12lzvui");
     			add_location(p, file$5, 11, 6, 293);
-    			attr_dev(div0, "class", "col svelte-ntfewj");
+    			attr_dev(div0, "class", "col svelte-12lzvui");
     			add_location(div0, file$5, 7, 4, 157);
     			attr_dev(div1, "class", "row");
     			add_location(div1, file$5, 6, 2, 135);
-    			attr_dev(div2, "class", "container svelte-ntfewj");
+    			attr_dev(div2, "class", "container svelte-12lzvui");
     			add_location(div2, file$5, 5, 0, 109);
     		},
     		l: function claim(nodes) {
