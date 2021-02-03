@@ -40,7 +40,7 @@
 <style>
 	img {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
     margin-bottom: 10px;
   }
 
