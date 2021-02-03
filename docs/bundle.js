@@ -731,7 +731,7 @@ var app = (function () {
     			attr_dev(i, "class", "text-black");
     			add_location(i, file, 22, 47, 548);
     			set_style(div, "display", "inline");
-    			attr_dev(div, "class", "usper svelte-1h2lrp");
+    			attr_dev(div, "class", "usper svelte-15m5gcl");
     			add_location(div, file, 22, 4, 505);
     		},
     		m: function mount(target, anchor) {
@@ -828,19 +828,19 @@ var app = (function () {
     			hr1 = element("hr");
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "bilde");
-    			attr_dev(img, "class", "svelte-1h2lrp");
+    			attr_dev(img, "class", "svelte-15m5gcl");
     			add_location(img, file, 10, 4, 253);
-    			attr_dev(h3, "class", "name-tittel svelte-1h2lrp");
+    			attr_dev(h3, "class", "name-tittel svelte-15m5gcl");
     			add_location(h3, file, 12, 3, 316);
     			add_location(div0, file, 13, 3, 355);
-    			attr_dev(div1, "class", "col-md-12 svelte-1h2lrp");
+    			attr_dev(div1, "class", "col-md-12 svelte-15m5gcl");
     			add_location(div1, file, 11, 4, 289);
     			attr_dev(div2, "class", "row p-2");
     			add_location(div2, file, 9, 1, 227);
     			set_style(div3, "display", "inline");
-    			attr_dev(div3, "class", "mt-3 svelte-1h2lrp");
+    			attr_dev(div3, "class", "mt-3 svelte-15m5gcl");
     			add_location(div3, file, 20, 3, 438);
-    			attr_dev(div4, "class", "col-md-12 svelte-1h2lrp");
+    			attr_dev(div4, "class", "col-md-12 svelte-15m5gcl");
     			add_location(div4, file, 19, 2, 411);
     			attr_dev(div5, "class", "row");
     			add_location(div5, file, 18, 1, 391);
