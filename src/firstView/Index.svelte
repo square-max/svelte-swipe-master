@@ -39,8 +39,8 @@
 
 <style>
 	img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+	height: auto;
     margin-bottom: 10px;
   }
 
@@ -51,7 +51,7 @@
   }
 
 .usper {
-	background-color: #fbe4e4;
+	background-color: red;
 	margin: 0px 5px 0px 5px;
 	padding: 5px 15px 5px 15px;
 	border-radius: 50px;
