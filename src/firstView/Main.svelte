@@ -6,6 +6,9 @@
 
     const {open} = getContext('simple-modal');
 
+    export let finish = undefined;
+
+
     let currIndex = 0;
 
     let fonds = [
@@ -104,9 +107,12 @@
 
     function renderNextFond() {
         let tmp = currIndex + 1;
-        if (tmp == fonds.length) 
+        console.log('currIndex ' + tmp);
+
+        if (tmp == fonds.length) {
+            finish();
             return;
-        
+        }
         currIndex++;
     }
 

@@ -2,11 +2,14 @@
 import {Main} from "../src/index.js";
 import Modal from "../src/firstView/Modal.svelte";
 
+let isDone = false;
+function finish() {
+  isDone = true;
+}
+
 </script>
 
-                              <!-- {#if fonds.name}
-                              <h1>The End</h1>
-                              {:else}  -->
+
 
 
 <div class="container">
@@ -20,11 +23,15 @@ import Modal from "../src/firstView/Modal.svelte";
   </div>
 
 <Modal>
-  <Main/>
+  {#if !isDone}
+    <Main finish={finish}/>
+  {:else}
+    <h1>Hello</h1>
+  {/if}
 </Modal>
 </div>
 
-                            <!--  {/if}  -->
+                          
 <style>
 
 	
