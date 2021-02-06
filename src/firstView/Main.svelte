@@ -89,7 +89,7 @@
 
 		},
 		{
-            "name": "Ingen flere fond i nærheten :(",
+            "name": "Ingen flere fond",
             "description": "Start på nytt eller sjekk ut Storebrand.no for flere fond!" ,
                     
                 
@@ -130,6 +130,9 @@
             location.reload()
         }, 100);
     }
+
+   
+
 </script>
 
 <div class="flex-container container">

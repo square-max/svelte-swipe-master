@@ -1,10 +1,11 @@
 <script>
-  export let description = undefined;
+	export let description = undefined;
+	export let name = undefined;
 </script>
 
 
 <div class="white-back">
-<h1>Litt om meg! </h1>
+<h1>{name}</h1>
 <span>
 	{description}
 </span>

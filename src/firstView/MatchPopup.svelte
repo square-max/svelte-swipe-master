@@ -3,6 +3,7 @@
 	export let link = undefined;
 	export let image = undefined;
 
+	
 
 	
 </script>
@@ -14,6 +15,7 @@
 <h1 >Det er en Match! </h1>
 <p>Du og {name} liker hverandre!</p>
 <a href={link} target="_blank" >Besøk meg her ;) </a>
+
 
 
 
@@ -40,7 +42,7 @@ img{
 
 }
 
-a {
+a{
 	text-align: center;
 	width:50%;
 		margin-left:auto;
@@ -60,9 +62,6 @@ p{
 		text-align: center;
 		margin-bottom: 20px;
 }
-
-
-
 
 </style>
 

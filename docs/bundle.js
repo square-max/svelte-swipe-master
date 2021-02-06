@@ -778,7 +778,7 @@ var app = (function () {
     	let t5;
     	let div6;
     	let p;
-    	let t6_value = /*description*/ ctx[1].substring(0, 80) + "";
+    	let t6_value = /*description*/ ctx[1].substring(0, 300) + "";
     	let t6;
     	let t7;
     	let t8;
@@ -846,10 +846,10 @@ var app = (function () {
     			add_location(div5, file, 18, 1, 391);
     			add_location(hr0, file, 28, 2, 627);
     			add_location(p, file, 31, 2, 698);
-    			add_location(i, file, 32, 2, 742);
+    			add_location(i, file, 32, 2, 743);
     			set_style(div6, "cursor", "pointer");
     			add_location(div6, file, 30, 1, 635);
-    			add_location(hr1, file, 35, 1, 780);
+    			add_location(hr1, file, 35, 1, 781);
     			attr_dev(div7, "class", "flex-container container");
     			add_location(div7, file, 7, 0, 185);
     		},
@@ -932,7 +932,7 @@ var app = (function () {
     				each_blocks.length = each_value.length;
     			}
 
-    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 80) + "")) set_data_dev(t6, t6_value);
+    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 300) + "")) set_data_dev(t6, t6_value);
     		},
     		i: noop,
     		o: noop,
@@ -1083,6 +1083,7 @@ var app = (function () {
     function create_fragment$1(ctx) {
     	let div;
     	let h1;
+    	let t0;
     	let t1;
     	let span;
     	let t2;
@@ -1091,16 +1092,16 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			h1 = element("h1");
-    			h1.textContent = "Litt om meg!";
+    			t0 = text(/*name*/ ctx[1]);
     			t1 = space();
     			span = element("span");
     			t2 = text(/*description*/ ctx[0]);
     			attr_dev(h1, "class", "svelte-1qgs9ve");
-    			add_location(h1, file$1, 6, 0, 84);
+    			add_location(h1, file$1, 7, 0, 113);
     			attr_dev(span, "class", "svelte-1qgs9ve");
-    			add_location(span, file$1, 7, 0, 107);
+    			add_location(span, file$1, 8, 0, 129);
     			attr_dev(div, "class", "white-back svelte-1qgs9ve");
-    			add_location(div, file$1, 5, 0, 59);
+    			add_location(div, file$1, 6, 0, 88);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1108,11 +1109,13 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
     			append_dev(div, h1);
+    			append_dev(h1, t0);
     			append_dev(div, t1);
     			append_dev(div, span);
     			append_dev(span, t2);
     		},
     		p: function update(ctx, [dirty]) {
+    			if (dirty & /*name*/ 2) set_data_dev(t0, /*name*/ ctx[1]);
     			if (dirty & /*description*/ 1) set_data_dev(t2, /*description*/ ctx[0]);
     		},
     		i: noop,
@@ -1135,7 +1138,8 @@ var app = (function () {
 
     function instance$1($$self, $$props, $$invalidate) {
     	let { description = undefined } = $$props;
-    	const writable_props = ["description"];
+    	let { name = undefined } = $$props;
+    	const writable_props = ["description", "name"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<DescriptionPopup> was created with unknown prop '${key}'`);
@@ -1146,25 +1150,27 @@ var app = (function () {
 
     	$$self.$set = $$props => {
     		if ("description" in $$props) $$invalidate(0, description = $$props.description);
+    		if ("name" in $$props) $$invalidate(1, name = $$props.name);
     	};
 
-    	$$self.$capture_state = () => ({ description });
+    	$$self.$capture_state = () => ({ description, name });
 
     	$$self.$inject_state = $$props => {
     		if ("description" in $$props) $$invalidate(0, description = $$props.description);
+    		if ("name" in $$props) $$invalidate(1, name = $$props.name);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [description];
+    	return [description, name];
     }
 
     class DescriptionPopup extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { description: 0 });
+    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { description: 0, name: 1 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -1179,6 +1185,14 @@ var app = (function () {
     	}
 
     	set description(value) {
+    		throw new Error("<DescriptionPopup>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get name() {
+    		throw new Error("<DescriptionPopup>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set name(value) {
     		throw new Error("<DescriptionPopup>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
@@ -1219,18 +1233,18 @@ var app = (function () {
     			t7 = text("Besøk meg her ;)");
     			attr_dev(img, "alt", "bilde");
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "svelte-1be33ax");
-    			add_location(img, file$2, 11, 0, 138);
+    			attr_dev(img, "class", "svelte-vi5sa5");
+    			add_location(img, file$2, 12, 0, 140);
     			attr_dev(div, "class", "pop-img");
-    			add_location(div, file$2, 10, 0, 116);
-    			attr_dev(h1, "class", "svelte-1be33ax");
-    			add_location(h1, file$2, 13, 0, 176);
-    			attr_dev(p, "class", "svelte-1be33ax");
-    			add_location(p, file$2, 14, 0, 204);
+    			add_location(div, file$2, 11, 0, 118);
+    			attr_dev(h1, "class", "svelte-vi5sa5");
+    			add_location(h1, file$2, 14, 0, 178);
+    			attr_dev(p, "class", "svelte-vi5sa5");
+    			add_location(p, file$2, 15, 0, 206);
     			attr_dev(a, "href", /*link*/ ctx[1]);
     			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-1be33ax");
-    			add_location(a, file$2, 15, 0, 241);
+    			attr_dev(a, "class", "svelte-vi5sa5");
+    			add_location(a, file$2, 16, 0, 243);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1413,39 +1427,39 @@ var app = (function () {
     			strong = element("strong");
     			strong.textContent = "Start på nytt";
     			attr_dev(div0, "class", "white-card svelte-1s7l2pe");
-    			add_location(div0, file$3, 136, 0, 6836);
+    			add_location(div0, file$3, 139, 0, 6828);
     			if (img0.src !== (img0_src_value = "images/X-04.svg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "X");
     			attr_dev(img0, "class", "svelte-1s7l2pe");
-    			add_location(img0, file$3, 148, 20, 7297);
+    			add_location(img0, file$3, 151, 20, 7289);
     			attr_dev(button0, "onclick", "this.blur();");
     			attr_dev(button0, "class", "but svelte-1s7l2pe");
     			attr_dev(button0, "id", "nope");
-    			add_location(button0, file$3, 147, 16, 7197);
+    			add_location(button0, file$3, 150, 16, 7189);
     			attr_dev(div1, "class", "no-block svelte-1s7l2pe");
-    			add_location(div1, file$3, 146, 12, 7158);
+    			add_location(div1, file$3, 149, 12, 7150);
     			if (img1.src !== (img1_src_value = "images/Heart-green-01.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "heart");
     			attr_dev(img1, "class", "svelte-1s7l2pe");
-    			add_location(img1, file$3, 153, 20, 7549);
+    			add_location(img1, file$3, 156, 20, 7541);
     			attr_dev(button1, "onclick", "this.blur();");
     			attr_dev(button1, "class", "but svelte-1s7l2pe");
     			attr_dev(button1, "id", "yes");
-    			add_location(button1, file$3, 152, 16, 7430);
+    			add_location(button1, file$3, 155, 16, 7422);
     			attr_dev(div2, "class", "yes-block svelte-1s7l2pe");
-    			add_location(div2, file$3, 151, 12, 7390);
+    			add_location(div2, file$3, 154, 12, 7382);
     			attr_dev(div3, "class", "yes-no-buttons svelte-1s7l2pe");
-    			add_location(div3, file$3, 145, 8, 7117);
-    			add_location(strong, file$3, 159, 16, 7784);
+    			add_location(div3, file$3, 148, 8, 7109);
+    			add_location(strong, file$3, 162, 16, 7776);
     			attr_dev(button2, "onclick", "this.blur();");
     			attr_dev(button2, "class", "reset svelte-1s7l2pe");
-    			add_location(button2, file$3, 158, 12, 7703);
+    			add_location(button2, file$3, 161, 12, 7695);
     			attr_dev(div4, "class", "reset-but svelte-1s7l2pe");
-    			add_location(div4, file$3, 157, 8, 7667);
+    			add_location(div4, file$3, 160, 8, 7659);
     			attr_dev(div5, "class", "row");
-    			add_location(div5, file$3, 144, 4, 7091);
+    			add_location(div5, file$3, 147, 4, 7083);
     			attr_dev(div6, "class", "flex-container container");
-    			add_location(div6, file$3, 134, 0, 6796);
+    			add_location(div6, file$3, 137, 0, 6788);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1563,7 +1577,7 @@ var app = (function () {
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010788284&buy&name=Storebrand%20Norge%20Fossilfri%20A"
     		},
     		{
-    			"name": "Ingen flere fond i nærheten :(",
+    			"name": "Ingen flere fond",
     			"description": "Start på nytt eller sjekk ut Storebrand.no for flere fond!",
     			"usp": ["Storebrand", "Valentinsdagen"],
     			"img": "./images/no-more-use.jpg",
@@ -2639,7 +2653,7 @@ var app = (function () {
     /* dev/App.svelte generated by Svelte v3.21.0 */
     const file$5 = "dev/App.svelte";
 
-    // (16:0) <Modal>
+    // (22:0) <Modal>
     function create_default_slot(ctx) {
     	let current;
     	const main = new Main({ $$inline: true });
@@ -2670,7 +2684,7 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(16:0) <Modal>",
+    		source: "(22:0) <Modal>",
     		ctx
     	});
 
@@ -2715,17 +2729,17 @@ var app = (function () {
     			attr_dev(img, "class", "heart-1 svelte-12lzvui");
     			if (img.src !== (img_src_value = "images/Heart-pink-07.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "heart");
-    			add_location(img, file$5, 8, 4, 179);
+    			add_location(img, file$5, 14, 4, 324);
     			attr_dev(h1, "class", "tittel svelte-12lzvui");
-    			add_location(h1, file$5, 10, 6, 251);
+    			add_location(h1, file$5, 16, 6, 396);
     			attr_dev(p, "class", "top-description svelte-12lzvui");
-    			add_location(p, file$5, 11, 6, 293);
+    			add_location(p, file$5, 17, 6, 438);
     			attr_dev(div0, "class", "col svelte-12lzvui");
-    			add_location(div0, file$5, 7, 4, 157);
+    			add_location(div0, file$5, 13, 4, 302);
     			attr_dev(div1, "class", "row");
-    			add_location(div1, file$5, 6, 2, 135);
+    			add_location(div1, file$5, 12, 2, 280);
     			attr_dev(div2, "class", "container svelte-12lzvui");
-    			add_location(div2, file$5, 5, 0, 109);
+    			add_location(div2, file$5, 11, 0, 254);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

@@ -1,7 +1,13 @@
 <script>
 import {Main} from "../src/index.js";
 import Modal from "../src/firstView/Modal.svelte";
+
 </script>
+
+                              <!-- {#if fonds.name}
+                              <h1>The End</h1>
+                              {:else}  -->
+
 
 <div class="container">
   <div class="row">
@@ -18,6 +24,7 @@ import Modal from "../src/firstView/Modal.svelte";
 </Modal>
 </div>
 
+                            <!--  {/if}  -->
 <style>
 
 	

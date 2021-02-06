@@ -29,7 +29,7 @@
   <hr/>
 
 	<div style="cursor:pointer;" on:click={descriptionCallback}>
-		<p> {description.substring(0, 80)}...</p>
+		<p> {description.substring(0, 300)}...</p>
 		<i>Trykk for å lese mer</i>
 	</div>
 
