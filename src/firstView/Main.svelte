@@ -20,7 +20,7 @@
                     "l. Og du? Jeg ser heller ikke på porno. Vennene mine ser nok på meg som en event" +
                     "yrer med høy moral, en som ikke er redd for å ta sjanser, og som sier ifra hvis " +
                     "noe ikke er helt riktig. Hoppe fra en fjellskrent med paraglider? Ja, gjerne det" +
-                    "! Delta i Skolestreik for klimaet? Absolutt!Er du som meg; liker å se verden med" +
+                    "! Delta i Skolestreik for klimaet? Absolutt! Er du som meg; liker å se verden med" +
                     " nye øyne, sykle gjennom vidstrakt natur og kanskje delta i en demonstrasjon mot" +
                     " krig? Ja, da synes jeg at du skal gi meg et hjerte!",
             "usp": [
@@ -30,14 +30,14 @@
             "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010883465&buy"
         }, {
             "name": "Storebrand Fremtid 10",
-            "description": "Hei! Så hyggelig at du vil bli bedre kjent med meg!Jeg er en rolig person som ny" +
+            "description": "Hei! Så hyggelig at du vil bli bedre kjent med meg! Jeg er en rolig person som ny" +
                     "ter livet best foran TV-en. Jeg er ganske glad i teknologi, og skaffer meg ofte " +
                     "det nyeste av det nye! Jeg klatrer ikke høyest og jeg løper ikke raskest, men sa" +
                     "tser i stedet på å nå målene mine over tid. Vennene mine vil beskrive meg som st" +
                     "ødig og litt nerdete. Ligner kanskje litt på Ludvig fra Flåklypa? Med sekken ful" +
                     "l av tekniske duppedingser. Ellers er jeg opptatt av å ta vare på naturen, at vi" +
-                    " oppfører oss bra mot hverandre, og at vi tør å stå opp mot urettferdighet.Hvis " +
-                    "du vil bli bedre kjent med meg, Lik da vel!",
+                    " oppfører oss bra mot hverandre, og at vi tør å stå opp mot urettferdighet. Hvis " +
+                    "du vil bli bedre kjent med meg, lik da vel!",
             "usp": [
                 "Livsnyter", "Varsom"
             ],
@@ -47,9 +47,9 @@
         }, {
             "name": "Storebrand Fremtid 50",
             "description": "Halloisen! Jeg er en morsom skapning som liker ananas på pizza, ekstra sterk cur" +
-                    "ry, og iskald brus i glasset. Jeg elsker å utforske naturen, enten til fots, ski" +
+                    "ry og iskald brus i glasset. Jeg elsker å utforske naturen, enten til fots, ski" +
                     " eller sykkel. Besseggen har jeg ennå ikke gått, men kanskje klarer vi det samme" +
-                    "n, hånd i hånd?Jeg ser på meg selv som en person med høy moralsk standard, og je" +
+                    "n, hånd i hånd? Jeg ser på meg selv som en person med høy moralsk standard, og je" +
                     "g har innsett at skjønnhet er det første som falmer. For meg er det viktig at du" +
                     " tør å ta en sjanse, uten å bli dumdristig. Vil du gå ved min side og bli litt b" +
                     "edre kjent? You know what to do!  ",
@@ -63,11 +63,11 @@
             "name": "Storebrand Fremtid 100",
             "description": "Tjenare, nu kör vi! Jeg er en våghals med glimt i øyet, og jeg ser etter en som " +
                     "tør satse på meg. Du må være villig til å ta sjanser, og sammen skal vi finne ut" +
-                    " at ofte nok er det verdt risikoen. Jeg elsker sterk mat, høylytte diskusjoner, " +
-                    "fart, spenning, og alt som er gøy. Kroppen er mitt tempel, så den tar jeg godt v" +
-                    "are på.Når folk først møter meg kan jeg virke spontan og vill, men egentlig er j" +
+                    " at ofte er det verdt risikoen. Jeg elsker sterk mat, høylytte diskusjoner, " +
+                    "fart, spenning og alt som er gøy. Kroppen er mitt tempel, så den tar jeg godt v" +
+                    "are på. Når folk først møter meg kan jeg virke spontan og vill, men egentlig er j" +
                     "eg veldig nøyaktig. Ja, jeg tar sjanser. Ja, jeg satser. Ja, jeg tør mer enn and" +
-                    "re. Jeg er ikke farlig, det du ser er det du får!Er du med? Like da vel  ",
+                    "re. Jeg er ikke farlig, det du ser er det du får! Er du med? Like, da vel! ",
             "usp": [
                 "Tøff", "Fremtidsrettet"
             ],
@@ -76,14 +76,14 @@
 
         }, {
             "name": "Storebrand Norge Fossilfritt",
-            "description": "Mitt livsmotto er Borte bra, men hjemme best. Jeg elsker norsk natur, så jeg tri" +
+            "description": "Mitt livsmotto er ``borte bra, men hjemme best.`` Jeg elsker norsk natur, så jeg tri" +
                     "ves best på ferie i eget land. Vi må ta vare på den vakre naturen vår. Jeg bor i" +
                     " Oslo, men er hverken hipster eller trendy. Kanskje litt mer sånn avslappet når " +
                     "det kommer til stil? Du må gjerne være moteriktig, men det er ikke det som betyr" +
-                    " mest for meg.Vennene mine kaller meg rolig og nøktern. Jeg roper ikke høyest på" +
+                    " mest for meg. Vennene mine kaller meg rolig og nøktern. Jeg roper ikke høyest på" +
                     " fest, jeg drikker ikke alkohol, og jeg tar sterk avstand til gambling og porno." +
                     " Kanskje ikke noe man vanligvis skryter av allerede før første date, men det er " +
-                    "viktig for meg at du vet det!Hvis du vil bli bedre kjent, Trykk hjerte!",
+                    "viktig for meg at du vet det! Hvis du vil bli bedre kjent, trykk hjerte!",
             "usp": [
                 "Hjemmekjær", "Naturglad"
             ],
@@ -91,18 +91,8 @@
             "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010788284&buy&name=Storebrand%20Norge%20Fossilfri%20A"
 
 		},
-		{
-            "name": "Ingen flere fond",
-            "description": "Start på nytt eller sjekk ut Storebrand.no for flere fond!" ,
-                    
-                
-            "usp": [
-                "Storebrand", "Valentinsdagen"
-            ],
-            "img": "./images/no-more-use.jpg",
-            "link": "https://www.storebrand.no/privat/sparing/fondssparing"
-
-        }
+		
+     
     ];
 
     function renderNextFond() {
@@ -131,11 +121,11 @@
         });
     }
 
-    function refresh() {
+/*     function refresh() {
         setTimeout(function () {
             location.reload()
         }, 100);
-    }
+    } */
 
    
 
@@ -164,11 +154,11 @@
                 </button>
             </div>
         </div>
-        <div class="reset-but">
+       <!--  <div class="reset-but">
             <button on:click={refresh} onclick="this.blur();" class="reset">
                 <strong>Start på nytt</strong>
             </button>
-        </div>
+        </div> -->
     </div>
 
 </div>
@@ -191,6 +181,7 @@
         width: 70px;
         border-radius: 100%;
         box-shadow: 0 1px 4px #c7c7c7;
+        background-color: #ffffff;
 
     }
 
@@ -199,6 +190,7 @@
         display: inline-block;
         float: left;
         width: 50%;
+        
     }
     .no-block button {
         float: right;
@@ -213,9 +205,11 @@
         width: 100%;
 		position: relative;
 		margin-top: 20px;
+        margin-bottom: 20px;
+       
     }
 
-    .reset-but {
+   /*  .reset-but {
 		width: 100%;
         text-align: center;
 
@@ -229,7 +223,7 @@
         min-width: 300px;
         font-size: 10pt;
 
-	}
+	} */
 
 	#yes img {
 		width:40px;

@@ -778,7 +778,7 @@ var app = (function () {
     	let t5;
     	let div6;
     	let p;
-    	let t6_value = /*description*/ ctx[1].substring(0, 300) + "";
+    	let t6_value = /*description*/ ctx[1].substring(0, 299) + "";
     	let t6;
     	let t7;
     	let t8;
@@ -932,7 +932,7 @@ var app = (function () {
     				each_blocks.length = each_value.length;
     			}
 
-    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 300) + "")) set_data_dev(t6, t6_value);
+    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 299) + "")) set_data_dev(t6, t6_value);
     		},
     		i: noop,
     		o: noop,
@@ -1233,17 +1233,17 @@ var app = (function () {
     			t7 = text("Besøk meg her ;)");
     			attr_dev(img, "alt", "bilde");
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "svelte-vi5sa5");
+    			attr_dev(img, "class", "svelte-dabzgx");
     			add_location(img, file$2, 12, 0, 140);
     			attr_dev(div, "class", "pop-img");
     			add_location(div, file$2, 11, 0, 118);
-    			attr_dev(h1, "class", "svelte-vi5sa5");
+    			attr_dev(h1, "class", "svelte-dabzgx");
     			add_location(h1, file$2, 14, 0, 178);
-    			attr_dev(p, "class", "svelte-vi5sa5");
+    			attr_dev(p, "class", "svelte-dabzgx");
     			add_location(p, file$2, 15, 0, 206);
     			attr_dev(a, "href", /*link*/ ctx[1]);
     			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-vi5sa5");
+    			attr_dev(a, "class", "svelte-dabzgx");
     			add_location(a, file$2, 16, 0, 243);
     		},
     		l: function claim(nodes) {
@@ -1376,10 +1376,10 @@ var app = (function () {
     const file$3 = "src/firstView/Main.svelte";
 
     function create_fragment$3(ctx) {
-    	let div6;
+    	let div5;
     	let div0;
     	let t0;
-    	let div5;
+    	let div4;
     	let div3;
     	let div1;
     	let button0;
@@ -1390,10 +1390,6 @@ var app = (function () {
     	let button1;
     	let img1;
     	let img1_src_value;
-    	let t2;
-    	let div4;
-    	let button2;
-    	let strong;
     	let current;
     	let dispose;
 
@@ -1410,11 +1406,11 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div6 = element("div");
+    			div5 = element("div");
     			div0 = element("div");
     			create_component(index.$$.fragment);
     			t0 = space();
-    			div5 = element("div");
+    			div4 = element("div");
     			div3 = element("div");
     			div1 = element("div");
     			button0 = element("button");
@@ -1423,56 +1419,45 @@ var app = (function () {
     			div2 = element("div");
     			button1 = element("button");
     			img1 = element("img");
-    			t2 = space();
-    			div4 = element("div");
-    			button2 = element("button");
-    			strong = element("strong");
-    			strong.textContent = "Start på nytt";
-    			attr_dev(div0, "class", "white-card svelte-1s7l2pe");
-    			add_location(div0, file$3, 145, 0, 6931);
+    			attr_dev(div0, "class", "white-card svelte-159znnt");
+    			add_location(div0, file$3, 135, 0, 6564);
     			if (img0.src !== (img0_src_value = "images/X-04.svg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "X");
-    			attr_dev(img0, "class", "svelte-1s7l2pe");
-    			add_location(img0, file$3, 157, 20, 7392);
+    			attr_dev(img0, "class", "svelte-159znnt");
+    			add_location(img0, file$3, 147, 20, 7025);
     			attr_dev(button0, "onclick", "this.blur();");
-    			attr_dev(button0, "class", "but svelte-1s7l2pe");
+    			attr_dev(button0, "class", "but svelte-159znnt");
     			attr_dev(button0, "id", "nope");
-    			add_location(button0, file$3, 156, 16, 7292);
-    			attr_dev(div1, "class", "no-block svelte-1s7l2pe");
-    			add_location(div1, file$3, 155, 12, 7253);
+    			add_location(button0, file$3, 146, 16, 6925);
+    			attr_dev(div1, "class", "no-block svelte-159znnt");
+    			add_location(div1, file$3, 145, 12, 6886);
     			if (img1.src !== (img1_src_value = "images/Heart-green-01.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "heart");
-    			attr_dev(img1, "class", "svelte-1s7l2pe");
-    			add_location(img1, file$3, 162, 20, 7644);
+    			attr_dev(img1, "class", "svelte-159znnt");
+    			add_location(img1, file$3, 152, 20, 7277);
     			attr_dev(button1, "onclick", "this.blur();");
-    			attr_dev(button1, "class", "but svelte-1s7l2pe");
+    			attr_dev(button1, "class", "but svelte-159znnt");
     			attr_dev(button1, "id", "yes");
-    			add_location(button1, file$3, 161, 16, 7525);
-    			attr_dev(div2, "class", "yes-block svelte-1s7l2pe");
-    			add_location(div2, file$3, 160, 12, 7485);
-    			attr_dev(div3, "class", "yes-no-buttons svelte-1s7l2pe");
-    			add_location(div3, file$3, 154, 8, 7212);
-    			add_location(strong, file$3, 168, 16, 7879);
-    			attr_dev(button2, "onclick", "this.blur();");
-    			attr_dev(button2, "class", "reset svelte-1s7l2pe");
-    			add_location(button2, file$3, 167, 12, 7798);
-    			attr_dev(div4, "class", "reset-but svelte-1s7l2pe");
-    			add_location(div4, file$3, 166, 8, 7762);
-    			attr_dev(div5, "class", "row");
-    			add_location(div5, file$3, 153, 4, 7186);
-    			attr_dev(div6, "class", "flex-container container");
-    			add_location(div6, file$3, 143, 0, 6891);
+    			add_location(button1, file$3, 151, 16, 7158);
+    			attr_dev(div2, "class", "yes-block svelte-159znnt");
+    			add_location(div2, file$3, 150, 12, 7118);
+    			attr_dev(div3, "class", "yes-no-buttons svelte-159znnt");
+    			add_location(div3, file$3, 144, 8, 6845);
+    			attr_dev(div4, "class", "row");
+    			add_location(div4, file$3, 143, 4, 6819);
+    			attr_dev(div5, "class", "flex-container container");
+    			add_location(div5, file$3, 133, 0, 6524);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor, remount) {
-    			insert_dev(target, div6, anchor);
-    			append_dev(div6, div0);
+    			insert_dev(target, div5, anchor);
+    			append_dev(div5, div0);
     			mount_component(index, div0, null);
-    			append_dev(div6, t0);
-    			append_dev(div6, div5);
-    			append_dev(div5, div3);
+    			append_dev(div5, t0);
+    			append_dev(div5, div4);
+    			append_dev(div4, div3);
     			append_dev(div3, div1);
     			append_dev(div1, button0);
     			append_dev(button0, img0);
@@ -1480,18 +1465,13 @@ var app = (function () {
     			append_dev(div3, div2);
     			append_dev(div2, button1);
     			append_dev(button1, img1);
-    			append_dev(div5, t2);
-    			append_dev(div5, div4);
-    			append_dev(div4, button2);
-    			append_dev(button2, strong);
     			current = true;
     			if (remount) run_all(dispose);
 
     			dispose = [
     				listen_dev(button0, "click", /*renderNextFond*/ ctx[2], false, false, false),
     				listen_dev(button1, "click", /*likeFond*/ ctx[3], false, false, false),
-    				listen_dev(button1, "click", /*renderNextFond*/ ctx[2], false, false, false),
-    				listen_dev(button2, "click", refresh, false, false, false)
+    				listen_dev(button1, "click", /*renderNextFond*/ ctx[2], false, false, false)
     			];
     		},
     		p: function update(ctx, [dirty]) {
@@ -1512,7 +1492,7 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div6);
+    			if (detaching) detach_dev(div5);
     			destroy_component(index);
     			run_all(dispose);
     		}
@@ -1529,15 +1509,6 @@ var app = (function () {
     	return block;
     }
 
-    function refresh() {
-    	setTimeout(
-    		function () {
-    			location.reload();
-    		},
-    		100
-    	);
-    }
-
     function instance$3($$self, $$props, $$invalidate) {
     	const { open } = getContext("simple-modal");
     	let { finish = undefined } = $$props;
@@ -1546,45 +1517,38 @@ var app = (function () {
     	let fonds = [
     		{
     			"name": "Storebrand Fornybar Energi",
-    			"description": "Hei, takk for at du titter innom profilen min. Jeg er reiseglad, og foretrekker " + "å oppleve verden fra sykkelsetet. Jeg liker å tenke nytt, og jeg elsker å diskut" + "ere de store spørsmål over et godt glass brus. Ja, jeg drikker altså ikke alkoho" + "l. Og du? Jeg ser heller ikke på porno. Vennene mine ser nok på meg som en event" + "yrer med høy moral, en som ikke er redd for å ta sjanser, og som sier ifra hvis " + "noe ikke er helt riktig. Hoppe fra en fjellskrent med paraglider? Ja, gjerne det" + "! Delta i Skolestreik for klimaet? Absolutt!Er du som meg; liker å se verden med" + " nye øyne, sykle gjennom vidstrakt natur og kanskje delta i en demonstrasjon mot" + " krig? Ja, da synes jeg at du skal gi meg et hjerte!",
+    			"description": "Hei, takk for at du titter innom profilen min. Jeg er reiseglad, og foretrekker " + "å oppleve verden fra sykkelsetet. Jeg liker å tenke nytt, og jeg elsker å diskut" + "ere de store spørsmål over et godt glass brus. Ja, jeg drikker altså ikke alkoho" + "l. Og du? Jeg ser heller ikke på porno. Vennene mine ser nok på meg som en event" + "yrer med høy moral, en som ikke er redd for å ta sjanser, og som sier ifra hvis " + "noe ikke er helt riktig. Hoppe fra en fjellskrent med paraglider? Ja, gjerne det" + "! Delta i Skolestreik for klimaet? Absolutt! Er du som meg; liker å se verden med" + " nye øyne, sykle gjennom vidstrakt natur og kanskje delta i en demonstrasjon mot" + " krig? Ja, da synes jeg at du skal gi meg et hjerte!",
     			"usp": ["Grønn", "Snill"],
     			"img": "./images/fornybar-energi-use.jpg",
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010883465&buy"
     		},
     		{
     			"name": "Storebrand Fremtid 10",
-    			"description": "Hei! Så hyggelig at du vil bli bedre kjent med meg!Jeg er en rolig person som ny" + "ter livet best foran TV-en. Jeg er ganske glad i teknologi, og skaffer meg ofte " + "det nyeste av det nye! Jeg klatrer ikke høyest og jeg løper ikke raskest, men sa" + "tser i stedet på å nå målene mine over tid. Vennene mine vil beskrive meg som st" + "ødig og litt nerdete. Ligner kanskje litt på Ludvig fra Flåklypa? Med sekken ful" + "l av tekniske duppedingser. Ellers er jeg opptatt av å ta vare på naturen, at vi" + " oppfører oss bra mot hverandre, og at vi tør å stå opp mot urettferdighet.Hvis " + "du vil bli bedre kjent med meg, Lik da vel!",
+    			"description": "Hei! Så hyggelig at du vil bli bedre kjent med meg! Jeg er en rolig person som ny" + "ter livet best foran TV-en. Jeg er ganske glad i teknologi, og skaffer meg ofte " + "det nyeste av det nye! Jeg klatrer ikke høyest og jeg løper ikke raskest, men sa" + "tser i stedet på å nå målene mine over tid. Vennene mine vil beskrive meg som st" + "ødig og litt nerdete. Ligner kanskje litt på Ludvig fra Flåklypa? Med sekken ful" + "l av tekniske duppedingser. Ellers er jeg opptatt av å ta vare på naturen, at vi" + " oppfører oss bra mot hverandre, og at vi tør å stå opp mot urettferdighet. Hvis " + "du vil bli bedre kjent med meg, lik da vel!",
     			"usp": ["Livsnyter", "Varsom"],
     			"img": "./images/fremtid-10-use.jpg",
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894694&buy"
     		},
     		{
     			"name": "Storebrand Fremtid 50",
-    			"description": "Halloisen! Jeg er en morsom skapning som liker ananas på pizza, ekstra sterk cur" + "ry, og iskald brus i glasset. Jeg elsker å utforske naturen, enten til fots, ski" + " eller sykkel. Besseggen har jeg ennå ikke gått, men kanskje klarer vi det samme" + "n, hånd i hånd?Jeg ser på meg selv som en person med høy moralsk standard, og je" + "g har innsett at skjønnhet er det første som falmer. For meg er det viktig at du" + " tør å ta en sjanse, uten å bli dumdristig. Vil du gå ved min side og bli litt b" + "edre kjent? You know what to do!  ",
+    			"description": "Halloisen! Jeg er en morsom skapning som liker ananas på pizza, ekstra sterk cur" + "ry og iskald brus i glasset. Jeg elsker å utforske naturen, enten til fots, ski" + " eller sykkel. Besseggen har jeg ennå ikke gått, men kanskje klarer vi det samme" + "n, hånd i hånd? Jeg ser på meg selv som en person med høy moralsk standard, og je" + "g har innsett at skjønnhet er det første som falmer. For meg er det viktig at du" + " tør å ta en sjanse, uten å bli dumdristig. Vil du gå ved min side og bli litt b" + "edre kjent? You know what to do!  ",
     			"usp": ["Naturbarn", "Nøisom"],
     			"img": "./images/fremtid-50-use.jpg",
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894801&buy"
     		},
     		{
     			"name": "Storebrand Fremtid 100",
-    			"description": "Tjenare, nu kör vi! Jeg er en våghals med glimt i øyet, og jeg ser etter en som " + "tør satse på meg. Du må være villig til å ta sjanser, og sammen skal vi finne ut" + " at ofte nok er det verdt risikoen. Jeg elsker sterk mat, høylytte diskusjoner, " + "fart, spenning, og alt som er gøy. Kroppen er mitt tempel, så den tar jeg godt v" + "are på.Når folk først møter meg kan jeg virke spontan og vill, men egentlig er j" + "eg veldig nøyaktig. Ja, jeg tar sjanser. Ja, jeg satser. Ja, jeg tør mer enn and" + "re. Jeg er ikke farlig, det du ser er det du får!Er du med? Like da vel  ",
+    			"description": "Tjenare, nu kör vi! Jeg er en våghals med glimt i øyet, og jeg ser etter en som " + "tør satse på meg. Du må være villig til å ta sjanser, og sammen skal vi finne ut" + " at ofte er det verdt risikoen. Jeg elsker sterk mat, høylytte diskusjoner, " + "fart, spenning og alt som er gøy. Kroppen er mitt tempel, så den tar jeg godt v" + "are på. Når folk først møter meg kan jeg virke spontan og vill, men egentlig er j" + "eg veldig nøyaktig. Ja, jeg tar sjanser. Ja, jeg satser. Ja, jeg tør mer enn and" + "re. Jeg er ikke farlig, det du ser er det du får! Er du med? Like, da vel! ",
     			"usp": ["Tøff", "Fremtidsrettet"],
     			"img": "./images/ofensivtoffing-use.jpg",
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010894819&buy"
     		},
     		{
     			"name": "Storebrand Norge Fossilfritt",
-    			"description": "Mitt livsmotto er Borte bra, men hjemme best. Jeg elsker norsk natur, så jeg tri" + "ves best på ferie i eget land. Vi må ta vare på den vakre naturen vår. Jeg bor i" + " Oslo, men er hverken hipster eller trendy. Kanskje litt mer sånn avslappet når " + "det kommer til stil? Du må gjerne være moteriktig, men det er ikke det som betyr" + " mest for meg.Vennene mine kaller meg rolig og nøktern. Jeg roper ikke høyest på" + " fest, jeg drikker ikke alkohol, og jeg tar sterk avstand til gambling og porno." + " Kanskje ikke noe man vanligvis skryter av allerede før første date, men det er " + "viktig for meg at du vet det!Hvis du vil bli bedre kjent, Trykk hjerte!",
+    			"description": "Mitt livsmotto er ``borte bra, men hjemme best.`` Jeg elsker norsk natur, så jeg tri" + "ves best på ferie i eget land. Vi må ta vare på den vakre naturen vår. Jeg bor i" + " Oslo, men er hverken hipster eller trendy. Kanskje litt mer sånn avslappet når " + "det kommer til stil? Du må gjerne være moteriktig, men det er ikke det som betyr" + " mest for meg. Vennene mine kaller meg rolig og nøktern. Jeg roper ikke høyest på" + " fest, jeg drikker ikke alkohol, og jeg tar sterk avstand til gambling og porno." + " Kanskje ikke noe man vanligvis skryter av allerede før første date, men det er " + "viktig for meg at du vet det! Hvis du vil bli bedre kjent, trykk hjerte!",
     			"usp": ["Hjemmekjær", "Naturglad"],
     			"img": "./images/fosilfri-use.jpg",
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010788284&buy&name=Storebrand%20Norge%20Fossilfri%20A"
-    		},
-    		{
-    			"name": "Ingen flere fond",
-    			"description": "Start på nytt eller sjekk ut Storebrand.no for flere fond!",
-    			"usp": ["Storebrand", "Valentinsdagen"],
-    			"img": "./images/no-more-use.jpg",
-    			"link": "https://www.storebrand.no/privat/sparing/fondssparing"
     		}
     	];
 
@@ -1639,8 +1603,7 @@ var app = (function () {
     		fonds,
     		renderNextFond,
     		likeFond,
-    		viewDescription,
-    		refresh
+    		viewDescription
     	});
 
     	$$self.$inject_state = $$props => {
@@ -2673,27 +2636,178 @@ var app = (function () {
     	}
     }
 
-    /* dev/App.svelte generated by Svelte v3.21.0 */
-    const file$5 = "dev/App.svelte";
+    /* src/firstView/End.svelte generated by Svelte v3.21.0 */
 
-    // (28:2) {:else}
-    function create_else_block$1(ctx) {
+    const file$5 = "src/firstView/End.svelte";
+
+    function create_fragment$5(ctx) {
+    	let div4;
+    	let div0;
     	let h1;
+    	let t1;
+    	let img;
+    	let img_src_value;
+    	let t2;
+    	let p;
+    	let t3;
+    	let a;
+    	let t5;
+    	let div3;
+    	let div2;
+    	let div1;
+    	let button;
+    	let strong;
+    	let dispose;
 
     	const block = {
     		c: function create() {
+    			div4 = element("div");
+    			div0 = element("div");
     			h1 = element("h1");
-    			h1.textContent = "Hello";
-    			add_location(h1, file$5, 28, 4, 495);
+    			h1.textContent = "Ingen elsker deg";
+    			t1 = space();
+    			img = element("img");
+    			t2 = space();
+    			p = element("p");
+    			t3 = text("Du likte desverre ingen fond, men fortvil ikke. Det finnes flere fond i havet. Sjekk dem ut her: ");
+    			a = element("a");
+    			a.textContent = "storebrand.no";
+    			t5 = space();
+    			div3 = element("div");
+    			div2 = element("div");
+    			div1 = element("div");
+    			button = element("button");
+    			strong = element("strong");
+    			strong.textContent = "Start på nytt";
+    			attr_dev(h1, "class", "svelte-zapr7b");
+    			add_location(h1, file$5, 15, 0, 182);
+    			if (img.src !== (img_src_value = "./images/no-more-use.jpg")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", "ingen flere fond");
+    			attr_dev(img, "class", "svelte-zapr7b");
+    			add_location(img, file$5, 16, 0, 208);
+    			attr_dev(a, "href", "https://www.storebrand.no/privat/fondslister");
+    			add_location(a, file$5, 17, 100, 368);
+    			add_location(p, file$5, 17, 0, 268);
+    			add_location(div0, file$5, 14, 0, 176);
+    			add_location(strong, file$5, 25, 16, 641);
+    			attr_dev(button, "onclick", "this.blur();");
+    			attr_dev(button, "class", "reset svelte-zapr7b");
+    			add_location(button, file$5, 24, 12, 560);
+    			attr_dev(div1, "class", "reset-but svelte-zapr7b");
+    			add_location(div1, file$5, 23, 8, 524);
+    			attr_dev(div2, "class", "yes-no-buttons svelte-zapr7b");
+    			add_location(div2, file$5, 22, 8, 487);
+    			attr_dev(div3, "class", "row");
+    			add_location(div3, file$5, 21, 4, 461);
+    			attr_dev(div4, "class", "flex-container container");
+    			add_location(div4, file$5, 13, 0, 137);
     		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, h1, anchor);
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    		},
+    		m: function mount(target, anchor, remount) {
+    			insert_dev(target, div4, anchor);
+    			append_dev(div4, div0);
+    			append_dev(div0, h1);
+    			append_dev(div0, t1);
+    			append_dev(div0, img);
+    			append_dev(div0, t2);
+    			append_dev(div0, p);
+    			append_dev(p, t3);
+    			append_dev(p, a);
+    			append_dev(div4, t5);
+    			append_dev(div4, div3);
+    			append_dev(div3, div2);
+    			append_dev(div2, div1);
+    			append_dev(div1, button);
+    			append_dev(button, strong);
+    			if (remount) dispose();
+    			dispose = listen_dev(button, "click", refresh, false, false, false);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(h1);
+    			if (detaching) detach_dev(div4);
+    			dispose();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_fragment$5.name,
+    		type: "component",
+    		source: "",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function refresh() {
+    	setTimeout(
+    		function () {
+    			location.reload();
+    		},
+    		100
+    	);
+    }
+
+    function instance$5($$self, $$props, $$invalidate) {
+    	const writable_props = [];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<End> was created with unknown prop '${key}'`);
+    	});
+
+    	let { $$slots = {}, $$scope } = $$props;
+    	validate_slots("End", $$slots, []);
+    	$$self.$capture_state = () => ({ refresh });
+    	return [];
+    }
+
+    class End extends SvelteComponentDev {
+    	constructor(options) {
+    		super(options);
+    		init(this, options, instance$5, create_fragment$5, safe_not_equal, {});
+
+    		dispatch_dev("SvelteRegisterComponent", {
+    			component: this,
+    			tagName: "End",
+    			options,
+    			id: create_fragment$5.name
+    		});
+    	}
+    }
+
+    /* dev/App.svelte generated by Svelte v3.21.0 */
+    const file$6 = "dev/App.svelte";
+
+    // (29:2) {:else}
+    function create_else_block$1(ctx) {
+    	let current;
+    	const end = new End({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(end.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(end, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(end.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(end.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(end, detaching);
     		}
     	};
 
@@ -2701,14 +2815,14 @@ var app = (function () {
     		block,
     		id: create_else_block$1.name,
     		type: "else",
-    		source: "(28:2) {:else}",
+    		source: "(29:2) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (26:2) {#if !isDone}
+    // (27:2) {#if !isDone}
     function create_if_block$1(ctx) {
     	let current;
 
@@ -2744,14 +2858,14 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(26:2) {#if !isDone}",
+    		source: "(27:2) {#if !isDone}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (25:0) <Modal>
+    // (26:0) <Modal>
     function create_default_slot(ctx) {
     	let current_block_type_index;
     	let if_block;
@@ -2822,14 +2936,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(25:0) <Modal>",
+    		source: "(26:0) <Modal>",
     		ctx
     	});
 
     	return block;
     }
 
-    function create_fragment$5(ctx) {
+    function create_fragment$6(ctx) {
     	let div2;
     	let div1;
     	let div0;
@@ -2867,17 +2981,17 @@ var app = (function () {
     			attr_dev(img, "class", "heart-1 svelte-12lzvui");
     			if (img.src !== (img_src_value = "images/Heart-pink-07.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "heart");
-    			add_location(img, file$5, 17, 4, 243);
+    			add_location(img, file$6, 18, 4, 290);
     			attr_dev(h1, "class", "tittel svelte-12lzvui");
-    			add_location(h1, file$5, 19, 6, 315);
+    			add_location(h1, file$6, 20, 6, 362);
     			attr_dev(p, "class", "top-description svelte-12lzvui");
-    			add_location(p, file$5, 20, 6, 357);
+    			add_location(p, file$6, 21, 6, 404);
     			attr_dev(div0, "class", "col svelte-12lzvui");
-    			add_location(div0, file$5, 16, 4, 221);
+    			add_location(div0, file$6, 17, 4, 268);
     			attr_dev(div1, "class", "row");
-    			add_location(div1, file$5, 15, 2, 199);
+    			add_location(div1, file$6, 16, 2, 246);
     			attr_dev(div2, "class", "container svelte-12lzvui");
-    			add_location(div2, file$5, 14, 0, 173);
+    			add_location(div2, file$6, 15, 0, 220);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2921,7 +3035,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$5.name,
+    		id: create_fragment$6.name,
     		type: "component",
     		source: "",
     		ctx
@@ -2930,7 +3044,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$5($$self, $$props, $$invalidate) {
+    function instance$6($$self, $$props, $$invalidate) {
     	let isDone = false;
 
     	function finish() {
@@ -2945,7 +3059,7 @@ var app = (function () {
 
     	let { $$slots = {}, $$scope } = $$props;
     	validate_slots("App", $$slots, []);
-    	$$self.$capture_state = () => ({ Main, Modal, isDone, finish });
+    	$$self.$capture_state = () => ({ Main, Modal, End, isDone, finish });
 
     	$$self.$inject_state = $$props => {
     		if ("isDone" in $$props) $$invalidate(0, isDone = $$props.isDone);
@@ -2961,13 +3075,13 @@ var app = (function () {
     class App extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$5, create_fragment$5, safe_not_equal, {});
+    		init(this, options, instance$6, create_fragment$6, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "App",
     			options,
-    			id: create_fragment$5.name
+    			id: create_fragment$6.name
     		});
     	}
     }

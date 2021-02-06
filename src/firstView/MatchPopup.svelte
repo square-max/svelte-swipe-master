@@ -58,7 +58,7 @@ a{
 p{
 	font-size: 1.3rem;
 		text-align: center;
-		font-family: 'Satisfy', cursive;
+		/* font-family: 'Satisfy', cursive; */
 		text-align: center;
 		margin-bottom: 20px;
 }

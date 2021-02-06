@@ -1,6 +1,7 @@
 <script>
 import {Main} from "../src/index.js";
 import Modal from "../src/firstView/Modal.svelte";
+import End from "../src/firstView/End.svelte";
 
 let isDone = false;
 function finish() {
@@ -26,7 +27,7 @@ function finish() {
   {#if !isDone}
     <Main finish={finish}/>
   {:else}
-    <h1>Hello</h1>
+ <End/>
   {/if}
 </Modal>
 </div>
