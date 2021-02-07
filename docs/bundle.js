@@ -731,7 +731,7 @@ var app = (function () {
     			attr_dev(i, "class", "text-black");
     			add_location(i, file, 22, 47, 548);
     			set_style(div, "display", "inline");
-    			attr_dev(div, "class", "usper svelte-n1xj5e");
+    			attr_dev(div, "class", "usper svelte-197j7li");
     			add_location(div, file, 22, 4, 505);
     		},
     		m: function mount(target, anchor) {
@@ -778,7 +778,7 @@ var app = (function () {
     	let t5;
     	let div6;
     	let p0;
-    	let t6_value = /*description*/ ctx[1].substring(0, 280) + "";
+    	let t6_value = /*description*/ ctx[1].substring(0, 200) + "";
     	let t6;
     	let t7;
     	let t8;
@@ -824,29 +824,30 @@ var app = (function () {
     			p1.textContent = "Trykk for å lese mer";
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "bilde");
-    			attr_dev(img, "class", "svelte-n1xj5e");
+    			attr_dev(img, "class", "svelte-197j7li");
     			add_location(img, file, 10, 4, 253);
-    			attr_dev(h3, "class", "name-tittel svelte-n1xj5e");
+    			attr_dev(h3, "class", "name-tittel svelte-197j7li");
     			add_location(h3, file, 12, 3, 316);
     			add_location(div0, file, 13, 3, 355);
-    			attr_dev(div1, "class", "col-md-12 svelte-n1xj5e");
+    			attr_dev(div1, "class", "col-md-12 svelte-197j7li");
     			add_location(div1, file, 11, 4, 289);
     			attr_dev(div2, "class", "row p-2");
     			add_location(div2, file, 9, 1, 227);
     			set_style(div3, "display", "inline");
-    			attr_dev(div3, "class", "mt-3 svelte-n1xj5e");
+    			attr_dev(div3, "class", "mt-3 svelte-197j7li");
     			add_location(div3, file, 20, 3, 438);
-    			attr_dev(div4, "class", "col-md-12 svelte-n1xj5e");
+    			attr_dev(div4, "class", "col-md-12 svelte-197j7li");
     			add_location(div4, file, 19, 2, 411);
     			attr_dev(div5, "class", "row");
     			add_location(div5, file, 18, 1, 391);
     			add_location(hr, file, 28, 2, 627);
+    			attr_dev(p0, "class", "svelte-197j7li");
     			add_location(p0, file, 31, 2, 698);
-    			attr_dev(p1, "class", "lesmer svelte-n1xj5e");
+    			attr_dev(p1, "class", "lesmer svelte-197j7li");
     			add_location(p1, file, 32, 2, 742);
     			set_style(div6, "cursor", "pointer");
     			add_location(div6, file, 30, 1, 635);
-    			attr_dev(div7, "class", "flex-container container");
+    			attr_dev(div7, "class", "flex-container container svelte-197j7li");
     			add_location(div7, file, 7, 0, 185);
     		},
     		l: function claim(nodes) {
@@ -926,7 +927,7 @@ var app = (function () {
     				each_blocks.length = each_value.length;
     			}
 
-    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 280) + "")) set_data_dev(t6, t6_value);
+    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 200) + "")) set_data_dev(t6, t6_value);
     		},
     		i: noop,
     		o: noop,

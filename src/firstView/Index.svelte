@@ -29,7 +29,7 @@
   <hr/>
 
 	<div style="cursor:pointer;" on:click={descriptionCallback}>
-		<p> {description.substring(0,280)}...</p>
+		<p> {description.substring(0,200)}...</p>
 		<p class="lesmer">Trykk for å lese mer</p>
 	</div>
 
@@ -60,6 +60,10 @@
 .mt-3{
    
     margin-left: 10px;
+}
+
+.container p{
+line-height: 1.3rem;
 }
 
 .col-md-12 {
