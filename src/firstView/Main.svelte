@@ -26,7 +26,7 @@
             "usp": [
                 "Grønn", "Snill"
             ],
-            "img": "./images/fornybar-energi-use.jpg",
+            "img": "./images/fosilfri-use-3.jpg",
             "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010883465&buy"
         }, {
             "name": "Storebrand Fremtid 10",
@@ -76,7 +76,7 @@
 
         }, {
             "name": "Storebrand Norge Fossilfritt",
-            "description": "Mitt livsmotto er ``borte bra, men hjemme best.`` Jeg elsker norsk natur, så jeg tri" +
+            "description": "Mitt livsmotto er ''borte bra, men hjemme best''. Jeg elsker norsk natur, så jeg tri" +
                     "ves best på ferie i eget land. Vi må ta vare på den vakre naturen vår. Jeg bor i" +
                     " Oslo, men er hverken hipster eller trendy. Kanskje litt mer sånn avslappet når " +
                     "det kommer til stil? Du må gjerne være moteriktig, men det er ikke det som betyr" +
@@ -87,7 +87,7 @@
             "usp": [
                 "Hjemmekjær", "Naturglad"
             ],
-            "img": "./images/fosilfri-use.jpg",
+            "img": "./images/fornybar-energi-3.jpg",
             "link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010788284&buy&name=Storebrand%20Norge%20Fossilfri%20A"
 
 		},

@@ -29,8 +29,8 @@
   <hr/>
 
 	<div style="cursor:pointer;" on:click={descriptionCallback}>
-		<p> {description.substring(0, 299)}...</p>
-		<i>Trykk for å lese mer</i>
+		<p> {description.substring(0,280)}...</p>
+		<p class="lesmer">Trykk for å lese mer</p>
 	</div>
 
 	<hr>
@@ -67,11 +67,16 @@
 	padding-left:10px;
 }
 
+.lesmer {
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+
 @media only screen and (max-width: 600px) {
  	img {
     width: 100%;
 	height: auto;
-	max-height: 200px;
     margin-bottom: 10px;
   }
 

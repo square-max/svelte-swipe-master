@@ -16,8 +16,8 @@
 <style>
 
   h1 {
-		font-size: 2rem;
-		text-align: center;
+		font-size: 1.5rem;
+		text-align: left;
 		color: #000000;
 		
 	}
@@ -31,7 +31,7 @@
 	}
 
 .white-back span{ 
-	font-size: 12pt;
+	font-size: 11pt;
 	line-height: 1.2;
 }
 

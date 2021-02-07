@@ -2,11 +2,8 @@
 	export let name = undefined;
 	export let link = undefined;
 	export let image = undefined;
-
-	
-
-	
 </script>
+
 
 
 <div class="pop-img">

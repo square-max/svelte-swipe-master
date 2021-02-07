@@ -731,7 +731,7 @@ var app = (function () {
     			attr_dev(i, "class", "text-black");
     			add_location(i, file, 22, 47, 548);
     			set_style(div, "display", "inline");
-    			attr_dev(div, "class", "usper svelte-z7rywx");
+    			attr_dev(div, "class", "usper svelte-1ab6i2e");
     			add_location(div, file, 22, 4, 505);
     		},
     		m: function mount(target, anchor) {
@@ -777,12 +777,12 @@ var app = (function () {
     	let hr0;
     	let t5;
     	let div6;
-    	let p;
-    	let t6_value = /*description*/ ctx[1].substring(0, 299) + "";
+    	let p0;
+    	let t6_value = /*description*/ ctx[1].substring(0, 280) + "";
     	let t6;
     	let t7;
     	let t8;
-    	let i;
+    	let p1;
     	let t10;
     	let hr1;
     	let dispose;
@@ -818,38 +818,39 @@ var app = (function () {
     			hr0 = element("hr");
     			t5 = space();
     			div6 = element("div");
-    			p = element("p");
+    			p0 = element("p");
     			t6 = text(t6_value);
     			t7 = text("...");
     			t8 = space();
-    			i = element("i");
-    			i.textContent = "Trykk for å lese mer";
+    			p1 = element("p");
+    			p1.textContent = "Trykk for å lese mer";
     			t10 = space();
     			hr1 = element("hr");
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "bilde");
-    			attr_dev(img, "class", "svelte-z7rywx");
+    			attr_dev(img, "class", "svelte-1ab6i2e");
     			add_location(img, file, 10, 4, 253);
-    			attr_dev(h3, "class", "name-tittel svelte-z7rywx");
+    			attr_dev(h3, "class", "name-tittel svelte-1ab6i2e");
     			add_location(h3, file, 12, 3, 316);
     			add_location(div0, file, 13, 3, 355);
-    			attr_dev(div1, "class", "col-md-12 svelte-z7rywx");
+    			attr_dev(div1, "class", "col-md-12 svelte-1ab6i2e");
     			add_location(div1, file, 11, 4, 289);
     			attr_dev(div2, "class", "row p-2");
     			add_location(div2, file, 9, 1, 227);
     			set_style(div3, "display", "inline");
-    			attr_dev(div3, "class", "mt-3 svelte-z7rywx");
+    			attr_dev(div3, "class", "mt-3 svelte-1ab6i2e");
     			add_location(div3, file, 20, 3, 438);
-    			attr_dev(div4, "class", "col-md-12 svelte-z7rywx");
+    			attr_dev(div4, "class", "col-md-12 svelte-1ab6i2e");
     			add_location(div4, file, 19, 2, 411);
     			attr_dev(div5, "class", "row");
     			add_location(div5, file, 18, 1, 391);
     			add_location(hr0, file, 28, 2, 627);
-    			add_location(p, file, 31, 2, 698);
-    			add_location(i, file, 32, 2, 743);
+    			add_location(p0, file, 31, 2, 698);
+    			attr_dev(p1, "class", "lesmer svelte-1ab6i2e");
+    			add_location(p1, file, 32, 2, 742);
     			set_style(div6, "cursor", "pointer");
     			add_location(div6, file, 30, 1, 635);
-    			add_location(hr1, file, 35, 1, 781);
+    			add_location(hr1, file, 35, 1, 795);
     			attr_dev(div7, "class", "flex-container container");
     			add_location(div7, file, 7, 0, 185);
     		},
@@ -879,11 +880,11 @@ var app = (function () {
     			append_dev(div7, hr0);
     			append_dev(div7, t5);
     			append_dev(div7, div6);
-    			append_dev(div6, p);
-    			append_dev(p, t6);
-    			append_dev(p, t7);
+    			append_dev(div6, p0);
+    			append_dev(p0, t6);
+    			append_dev(p0, t7);
     			append_dev(div6, t8);
-    			append_dev(div6, i);
+    			append_dev(div6, p1);
     			append_dev(div7, t10);
     			append_dev(div7, hr1);
     			if (remount) dispose();
@@ -932,7 +933,7 @@ var app = (function () {
     				each_blocks.length = each_value.length;
     			}
 
-    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 299) + "")) set_data_dev(t6, t6_value);
+    			if (dirty & /*description*/ 2 && t6_value !== (t6_value = /*description*/ ctx[1].substring(0, 280) + "")) set_data_dev(t6, t6_value);
     		},
     		i: noop,
     		o: noop,
@@ -1096,11 +1097,11 @@ var app = (function () {
     			t1 = space();
     			span = element("span");
     			t2 = text(/*description*/ ctx[0]);
-    			attr_dev(h1, "class", "svelte-1qgs9ve");
+    			attr_dev(h1, "class", "svelte-143wuxd");
     			add_location(h1, file$1, 7, 0, 113);
-    			attr_dev(span, "class", "svelte-1qgs9ve");
+    			attr_dev(span, "class", "svelte-143wuxd");
     			add_location(span, file$1, 8, 0, 129);
-    			attr_dev(div, "class", "white-back svelte-1qgs9ve");
+    			attr_dev(div, "class", "white-back svelte-143wuxd");
     			add_location(div, file$1, 6, 0, 88);
     		},
     		l: function claim(nodes) {
@@ -1234,17 +1235,17 @@ var app = (function () {
     			attr_dev(img, "alt", "bilde");
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "class", "svelte-dabzgx");
-    			add_location(img, file$2, 12, 0, 140);
+    			add_location(img, file$2, 9, 0, 135);
     			attr_dev(div, "class", "pop-img");
-    			add_location(div, file$2, 11, 0, 118);
+    			add_location(div, file$2, 8, 0, 113);
     			attr_dev(h1, "class", "svelte-dabzgx");
-    			add_location(h1, file$2, 14, 0, 178);
+    			add_location(h1, file$2, 11, 0, 173);
     			attr_dev(p, "class", "svelte-dabzgx");
-    			add_location(p, file$2, 15, 0, 206);
+    			add_location(p, file$2, 12, 0, 201);
     			attr_dev(a, "href", /*link*/ ctx[1]);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-dabzgx");
-    			add_location(a, file$2, 16, 0, 243);
+    			add_location(a, file$2, 13, 0, 238);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1519,7 +1520,7 @@ var app = (function () {
     			"name": "Storebrand Fornybar Energi",
     			"description": "Hei, takk for at du titter innom profilen min. Jeg er reiseglad, og foretrekker " + "å oppleve verden fra sykkelsetet. Jeg liker å tenke nytt, og jeg elsker å diskut" + "ere de store spørsmål over et godt glass brus. Ja, jeg drikker altså ikke alkoho" + "l. Og du? Jeg ser heller ikke på porno. Vennene mine ser nok på meg som en event" + "yrer med høy moral, en som ikke er redd for å ta sjanser, og som sier ifra hvis " + "noe ikke er helt riktig. Hoppe fra en fjellskrent med paraglider? Ja, gjerne det" + "! Delta i Skolestreik for klimaet? Absolutt! Er du som meg; liker å se verden med" + " nye øyne, sykle gjennom vidstrakt natur og kanskje delta i en demonstrasjon mot" + " krig? Ja, da synes jeg at du skal gi meg et hjerte!",
     			"usp": ["Grønn", "Snill"],
-    			"img": "./images/fornybar-energi-use.jpg",
+    			"img": "./images/fosilfri-use-3.jpg",
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010883465&buy"
     		},
     		{
@@ -1545,9 +1546,9 @@ var app = (function () {
     		},
     		{
     			"name": "Storebrand Norge Fossilfritt",
-    			"description": "Mitt livsmotto er ``borte bra, men hjemme best.`` Jeg elsker norsk natur, så jeg tri" + "ves best på ferie i eget land. Vi må ta vare på den vakre naturen vår. Jeg bor i" + " Oslo, men er hverken hipster eller trendy. Kanskje litt mer sånn avslappet når " + "det kommer til stil? Du må gjerne være moteriktig, men det er ikke det som betyr" + " mest for meg. Vennene mine kaller meg rolig og nøktern. Jeg roper ikke høyest på" + " fest, jeg drikker ikke alkohol, og jeg tar sterk avstand til gambling og porno." + " Kanskje ikke noe man vanligvis skryter av allerede før første date, men det er " + "viktig for meg at du vet det! Hvis du vil bli bedre kjent, trykk hjerte!",
+    			"description": "Mitt livsmotto er ''borte bra, men hjemme best''. Jeg elsker norsk natur, så jeg tri" + "ves best på ferie i eget land. Vi må ta vare på den vakre naturen vår. Jeg bor i" + " Oslo, men er hverken hipster eller trendy. Kanskje litt mer sånn avslappet når " + "det kommer til stil? Du må gjerne være moteriktig, men det er ikke det som betyr" + " mest for meg. Vennene mine kaller meg rolig og nøktern. Jeg roper ikke høyest på" + " fest, jeg drikker ikke alkohol, og jeg tar sterk avstand til gambling og porno." + " Kanskje ikke noe man vanligvis skryter av allerede før første date, men det er " + "viktig for meg at du vet det! Hvis du vil bli bedre kjent, trykk hjerte!",
     			"usp": ["Hjemmekjær", "Naturglad"],
-    			"img": "./images/fosilfri-use.jpg",
+    			"img": "./images/fornybar-energi-3.jpg",
     			"link": "https://www.storebrand.no/privat/fondsark/storebrand?isin=NO0010788284&buy&name=Storebrand%20Norge%20Fossilfri%20A"
     		}
     	];
@@ -1697,19 +1698,19 @@ var app = (function () {
     			t = space();
     			div0 = element("div");
     			if (switch_instance) create_component(switch_instance.$$.fragment);
-    			attr_dev(div0, "class", "content svelte-6juusu");
+    			attr_dev(div0, "class", "content svelte-1mgx7ct");
     			attr_dev(div0, "style", /*cssContent*/ ctx[12]);
-    			add_location(div0, file$4, 268, 8, 6417);
-    			attr_dev(div1, "class", "window svelte-6juusu");
+    			add_location(div0, file$4, 268, 8, 6388);
+    			attr_dev(div1, "class", "window svelte-1mgx7ct");
     			attr_dev(div1, "role", "dialog");
     			attr_dev(div1, "aria-modal", "true");
     			attr_dev(div1, "style", /*cssWindow*/ ctx[11]);
-    			add_location(div1, file$4, 249, 6, 5812);
-    			attr_dev(div2, "class", "window-wrap svelte-6juusu");
-    			add_location(div2, file$4, 248, 4, 5763);
-    			attr_dev(div3, "class", "bg svelte-6juusu");
+    			add_location(div1, file$4, 249, 6, 5783);
+    			attr_dev(div2, "class", "window-wrap svelte-1mgx7ct");
+    			add_location(div2, file$4, 248, 4, 5734);
+    			attr_dev(div3, "class", "bg svelte-1mgx7ct");
     			attr_dev(div3, "style", /*cssBg*/ ctx[10]);
-    			add_location(div3, file$4, 241, 2, 5597);
+    			add_location(div3, file$4, 241, 2, 5568);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, div3, anchor);
@@ -1977,9 +1978,9 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			button = element("button");
-    			attr_dev(button, "class", "close svelte-6juusu");
+    			attr_dev(button, "class", "close svelte-1mgx7ct");
     			attr_dev(button, "style", /*cssCloseButton*/ ctx[13]);
-    			add_location(button, file$4, 265, 6, 6319);
+    			add_location(button, file$4, 265, 6, 6290);
     		},
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, button, anchor);
@@ -2643,15 +2644,18 @@ var app = (function () {
     function create_fragment$5(ctx) {
     	let div4;
     	let div0;
-    	let h1;
-    	let t1;
     	let img;
     	let img_src_value;
+    	let t0;
+    	let h1;
     	let t2;
-    	let p;
+    	let p0;
     	let t3;
     	let a;
     	let t5;
+    	let p1;
+    	let p2;
+    	let t7;
     	let div3;
     	let div2;
     	let div1;
@@ -2663,42 +2667,48 @@ var app = (function () {
     		c: function create() {
     			div4 = element("div");
     			div0 = element("div");
-    			h1 = element("h1");
-    			h1.textContent = "Ingen elsker deg";
-    			t1 = space();
     			img = element("img");
+    			t0 = space();
+    			h1 = element("h1");
+    			h1.textContent = "Ingen flere fond i nærheten";
     			t2 = space();
-    			p = element("p");
-    			t3 = text("Du likte desverre ingen fond, men fortvil ikke. Det finnes flere fond i havet. Sjekk dem ut her: ");
+    			p0 = element("p");
+    			t3 = text("Fortsatt ikke funnet det rette fondet for deg? Fortvil ikke, det finnes flere fond i havet. Sjekk dem ut her! ");
     			a = element("a");
     			a.textContent = "storebrand.no";
-    			t5 = space();
+    			t5 = text(" eller start på nytt.");
+    			p1 = element("p");
+    			p2 = element("p");
+    			p2.textContent = "Dette er ikke et personlig investeringsråd. Storebrand anbefaler at du leser produktets prospekt og nøkkelinformasjon før du eventuelt tar en beslutning om å investere i fond.";
+    			t7 = space();
     			div3 = element("div");
     			div2 = element("div");
     			div1 = element("div");
     			button = element("button");
     			strong = element("strong");
     			strong.textContent = "Start på nytt";
-    			attr_dev(h1, "class", "svelte-zapr7b");
-    			add_location(h1, file$5, 15, 0, 182);
     			if (img.src !== (img_src_value = "./images/no-more-use.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "ingen flere fond");
     			attr_dev(img, "class", "svelte-zapr7b");
-    			add_location(img, file$5, 16, 0, 208);
+    			add_location(img, file$5, 15, 0, 182);
+    			attr_dev(h1, "class", "svelte-zapr7b");
+    			add_location(h1, file$5, 16, 0, 242);
     			attr_dev(a, "href", "https://www.storebrand.no/privat/fondslister");
-    			add_location(a, file$5, 17, 100, 368);
-    			add_location(p, file$5, 17, 0, 268);
+    			add_location(a, file$5, 17, 113, 392);
+    			add_location(p0, file$5, 17, 0, 279);
+    			add_location(p1, file$5, 17, 207, 486);
+    			add_location(p2, file$5, 18, 3, 493);
     			add_location(div0, file$5, 14, 0, 176);
-    			add_location(strong, file$5, 25, 16, 641);
+    			add_location(strong, file$5, 27, 16, 871);
     			attr_dev(button, "onclick", "this.blur();");
     			attr_dev(button, "class", "reset svelte-zapr7b");
-    			add_location(button, file$5, 24, 12, 560);
+    			add_location(button, file$5, 26, 12, 790);
     			attr_dev(div1, "class", "reset-but svelte-zapr7b");
-    			add_location(div1, file$5, 23, 8, 524);
+    			add_location(div1, file$5, 25, 8, 754);
     			attr_dev(div2, "class", "yes-no-buttons svelte-zapr7b");
-    			add_location(div2, file$5, 22, 8, 487);
+    			add_location(div2, file$5, 24, 8, 717);
     			attr_dev(div3, "class", "row");
-    			add_location(div3, file$5, 21, 4, 461);
+    			add_location(div3, file$5, 23, 4, 691);
     			attr_dev(div4, "class", "flex-container container");
     			add_location(div4, file$5, 13, 0, 137);
     		},
@@ -2708,14 +2718,17 @@ var app = (function () {
     		m: function mount(target, anchor, remount) {
     			insert_dev(target, div4, anchor);
     			append_dev(div4, div0);
-    			append_dev(div0, h1);
-    			append_dev(div0, t1);
     			append_dev(div0, img);
+    			append_dev(div0, t0);
+    			append_dev(div0, h1);
     			append_dev(div0, t2);
-    			append_dev(div0, p);
-    			append_dev(p, t3);
-    			append_dev(p, a);
-    			append_dev(div4, t5);
+    			append_dev(div0, p0);
+    			append_dev(p0, t3);
+    			append_dev(p0, a);
+    			append_dev(p0, t5);
+    			append_dev(div0, p1);
+    			append_dev(div0, p2);
+    			append_dev(div4, t7);
     			append_dev(div4, div3);
     			append_dev(div3, div2);
     			append_dev(div2, div1);
@@ -2978,19 +2991,19 @@ var app = (function () {
     			p.textContent = "Finn fondet for deg";
     			t4 = space();
     			create_component(modal.$$.fragment);
-    			attr_dev(img, "class", "heart-1 svelte-12lzvui");
+    			attr_dev(img, "class", "heart-1 svelte-1a4nq0n");
     			if (img.src !== (img_src_value = "images/Heart-pink-07.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "heart");
     			add_location(img, file$6, 18, 4, 290);
-    			attr_dev(h1, "class", "tittel svelte-12lzvui");
+    			attr_dev(h1, "class", "tittel svelte-1a4nq0n");
     			add_location(h1, file$6, 20, 6, 362);
-    			attr_dev(p, "class", "top-description svelte-12lzvui");
+    			attr_dev(p, "class", "top-description svelte-1a4nq0n");
     			add_location(p, file$6, 21, 6, 404);
-    			attr_dev(div0, "class", "col svelte-12lzvui");
+    			attr_dev(div0, "class", "col svelte-1a4nq0n");
     			add_location(div0, file$6, 17, 4, 268);
     			attr_dev(div1, "class", "row");
     			add_location(div1, file$6, 16, 2, 246);
-    			attr_dev(div2, "class", "container svelte-12lzvui");
+    			attr_dev(div2, "class", "container svelte-1a4nq0n");
     			add_location(div2, file$6, 15, 0, 220);
     		},
     		l: function claim(nodes) {

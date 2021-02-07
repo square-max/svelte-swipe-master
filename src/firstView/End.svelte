@@ -13,9 +13,11 @@
 
 <div class="flex-container container">
 <div>
-<h1>Ingen elsker deg</h1>
 <img src="./images/no-more-use.jpg" alt="ingen flere fond">
-<p>Du likte desverre ingen fond, men fortvil ikke. Det finnes flere fond i havet. Sjekk dem ut her: <a href="https://www.storebrand.no/privat/fondslister"> storebrand.no </a> </p>
+<h1>Ingen flere fond i nærheten</h1>
+<p>Fortsatt ikke funnet det rette fondet for deg? Fortvil ikke, det finnes flere fond i havet. Sjekk dem ut her! <a href="https://www.storebrand.no/privat/fondslister"> storebrand.no</a> eller start på nytt.<p>
+   <p> Dette er ikke et personlig investeringsråd. Storebrand anbefaler at du leser produktets prospekt og nøkkelinformasjon før du eventuelt tar en beslutning om å investere i fond.</p>
+
 </div>
 
 
