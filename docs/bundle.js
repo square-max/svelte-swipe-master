@@ -731,7 +731,7 @@ var app = (function () {
     			attr_dev(i, "class", "text-black");
     			add_location(i, file, 22, 47, 548);
     			set_style(div, "display", "inline");
-    			attr_dev(div, "class", "usper svelte-1ab6i2e");
+    			attr_dev(div, "class", "usper svelte-1hzvn9o");
     			add_location(div, file, 22, 4, 505);
     		},
     		m: function mount(target, anchor) {
@@ -828,25 +828,25 @@ var app = (function () {
     			hr1 = element("hr");
     			if (img.src !== (img_src_value = /*image*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "bilde");
-    			attr_dev(img, "class", "svelte-1ab6i2e");
+    			attr_dev(img, "class", "svelte-1hzvn9o");
     			add_location(img, file, 10, 4, 253);
-    			attr_dev(h3, "class", "name-tittel svelte-1ab6i2e");
+    			attr_dev(h3, "class", "name-tittel svelte-1hzvn9o");
     			add_location(h3, file, 12, 3, 316);
     			add_location(div0, file, 13, 3, 355);
-    			attr_dev(div1, "class", "col-md-12 svelte-1ab6i2e");
+    			attr_dev(div1, "class", "col-md-12 svelte-1hzvn9o");
     			add_location(div1, file, 11, 4, 289);
     			attr_dev(div2, "class", "row p-2");
     			add_location(div2, file, 9, 1, 227);
     			set_style(div3, "display", "inline");
-    			attr_dev(div3, "class", "mt-3 svelte-1ab6i2e");
+    			attr_dev(div3, "class", "mt-3 svelte-1hzvn9o");
     			add_location(div3, file, 20, 3, 438);
-    			attr_dev(div4, "class", "col-md-12 svelte-1ab6i2e");
+    			attr_dev(div4, "class", "col-md-12 svelte-1hzvn9o");
     			add_location(div4, file, 19, 2, 411);
     			attr_dev(div5, "class", "row");
     			add_location(div5, file, 18, 1, 391);
     			add_location(hr0, file, 28, 2, 627);
     			add_location(p0, file, 31, 2, 698);
-    			attr_dev(p1, "class", "lesmer svelte-1ab6i2e");
+    			attr_dev(p1, "class", "lesmer svelte-1hzvn9o");
     			add_location(p1, file, 32, 2, 742);
     			set_style(div6, "cursor", "pointer");
     			add_location(div6, file, 30, 1, 635);
@@ -2991,19 +2991,19 @@ var app = (function () {
     			p.textContent = "Finn fondet for deg";
     			t4 = space();
     			create_component(modal.$$.fragment);
-    			attr_dev(img, "class", "heart-1 svelte-1a4nq0n");
+    			attr_dev(img, "class", "heart-1 svelte-uo4fmi");
     			if (img.src !== (img_src_value = "images/Heart-pink-07.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "heart");
     			add_location(img, file$6, 18, 4, 290);
-    			attr_dev(h1, "class", "tittel svelte-1a4nq0n");
+    			attr_dev(h1, "class", "tittel svelte-uo4fmi");
     			add_location(h1, file$6, 20, 6, 362);
-    			attr_dev(p, "class", "top-description svelte-1a4nq0n");
+    			attr_dev(p, "class", "top-description svelte-uo4fmi");
     			add_location(p, file$6, 21, 6, 404);
-    			attr_dev(div0, "class", "col svelte-1a4nq0n");
+    			attr_dev(div0, "class", "col svelte-uo4fmi");
     			add_location(div0, file$6, 17, 4, 268);
     			attr_dev(div1, "class", "row");
     			add_location(div1, file$6, 16, 2, 246);
-    			attr_dev(div2, "class", "container svelte-1a4nq0n");
+    			attr_dev(div2, "class", "container svelte-uo4fmi");
     			add_location(div2, file$6, 15, 0, 220);
     		},
     		l: function claim(nodes) {

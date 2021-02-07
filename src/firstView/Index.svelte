@@ -77,6 +77,7 @@
  	img {
     width: 100%;
 	height: auto;
+	max-height: 190px;
     margin-bottom: 10px;
   }
 
