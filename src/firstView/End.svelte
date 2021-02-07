@@ -39,6 +39,7 @@
         width: 100%;
 		position: relative;
 		margin-top: 20px;
+        margin-bottom: 60px;
     }
 
     .reset-but {

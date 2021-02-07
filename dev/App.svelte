@@ -83,7 +83,7 @@ top: 20px;
 
 @media only screen and (max-width: 600px) {
 .container {
-height: 100%;
+height: 100vh;
 }
 }
 
