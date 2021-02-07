@@ -33,7 +33,6 @@
 		<p class="lesmer">Trykk for å lese mer</p>
 	</div>
 
-	<hr>
 
 </div>
 
@@ -77,7 +76,7 @@
  	img {
     width: 100%;
 	height: auto;
-	max-height: 190px;
+	max-height: 170px;
     margin-bottom: 10px;
   }
 
